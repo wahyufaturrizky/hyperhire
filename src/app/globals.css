@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #ffffff;
+}
+
+body {
+  font-family: var(--font-poppins);
+
+  color: var(--white);
+}
+
+.slide-width {
+  width: 292px;
+  @media (max-width: 1024px) {
+    width: 213px;
+  }
+  /* @media (max-width: 600px) {
+    width: 213px;
+  } */
+}
